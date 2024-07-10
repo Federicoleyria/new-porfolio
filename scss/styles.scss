@@ -878,7 +878,9 @@ footer {
     }
 
     .project-image {
-        display: none;
+        float: left;
+        width: 120px; /* Ajusta el ancho según sea necesario */
+        height: 120px; /* Ajusta la altura según sea necesario */
     }
 
     .project-info {
@@ -896,6 +898,25 @@ footer {
         text-align: center;
     }
 
+    .imagen-acomodada {
+        /* Alineación a la izquierda */
+        float: left;
+    
+        /* Ajustar el tamaño máximo de la imagen */
+        width: 7cm; /* Por ejemplo, ajusta este valor según tus necesidades */
+    
+        /* Altura automática */
+        height: 7cm;
+    
+        /* Agregar un borde alrededor de la imagen */
+        border: 2px ;
+        border-radius: 4px;
+    
+        /* Eliminar el espacio alrededor de la imagen */
+        padding: 5px;
+        margin: 5 10px 10px 0; /* Agregar margen a la derecha y abajo para separarla de otros elementos */
+    }
+    
 }
 
 // Extra Small Devices
