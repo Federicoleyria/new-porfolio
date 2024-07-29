@@ -617,6 +617,12 @@ footer {
     -------------------------------
 */
 
+/*
+    -------------------------------
+    ----- 8. Project Styles -----
+    -------------------------------
+*/
+
 #projects {
     padding: 50px 15px;
     border-bottom: 1px solid $border;
@@ -630,15 +636,17 @@ footer {
 
 .project {
     position: relative;
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto 30px auto;
     overflow: hidden;
     background: #fff;
     border-radius: 4px;
+    height: 700px; /* Incrementa la altura del proyecto según sea necesario */
 }
 
 .project-image {
     float: left;
+    height: 150%; /* Asegura que la imagen ocupe toda la altura del contenedor */
 }
 
 .project-info {
@@ -877,10 +885,10 @@ footer {
         }
     }
 
-    .project-image {
-        float: left;
-        width: 120px; /* Ajusta el ancho según sea necesario */
-        height: 120px; /* Ajusta la altura según sea necesario */
+    .project-image img {
+        width: 150%;
+        height: 150%;
+        object-fit: cover; /* Asegura que la imagen cubra todo el contenedor sin distorsión */
     }
 
     .project-info {
@@ -903,10 +911,10 @@ footer {
         float: left;
     
         /* Ajustar el tamaño máximo de la imagen */
-        width: 7cm; /* Por ejemplo, ajusta este valor según tus necesidades */
+        width: 10cm; /* Por ejemplo, ajusta este valor según tus necesidades */
     
         /* Altura automática */
-        height: 7cm;
+        height: 8cm;
     
         /* Agregar un borde alrededor de la imagen */
         border: 2px ;
